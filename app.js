@@ -14,7 +14,7 @@ const entriesRouter = require('./routes/entries');
 
 const app = express();
 
-const allowedOrigins = ['https://dailydose-fe-smoky.vercel.app', 'http://localhost:5173'];
+const allowedOrigins = ['https://dailydose-fe-psi.vercel.app', 'http://localhost:5173'];
 
 app.use(cors({
 
@@ -71,4 +71,3 @@ app.get('/api/test', (req, res) => {
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => console.logServer running on port ${PORT}));
-
