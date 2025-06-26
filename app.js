@@ -1,3 +1,7 @@
+kuick.io
+shortcut for sharing
+Toggle theme
+
 // Load environment variables
 
 require('dotenv').config();
@@ -71,3 +75,4 @@ app.get('/api/test', (req, res) => {
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => console.logServer running on port ${PORT}));
+
