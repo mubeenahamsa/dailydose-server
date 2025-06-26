@@ -14,7 +14,7 @@ const entriesRouter = require('./routes/entries');
 
 const app = express();
 
-const allowedOrigins = ['https://dailydose-fe-smoky.vercel.app/', 'http://localhost:5173'];
+const allowedOrigins = ['https://dailydose-fe-smoky.vercel.app', 'http://localhost:5173'];
 
 app.use(cors({
 
