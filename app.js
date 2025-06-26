@@ -1,7 +1,3 @@
-kuick.io
-shortcut for sharing
-Toggle theme
-
 // Load environment variables
 
 require('dotenv').config();
